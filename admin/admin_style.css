@@ -1,0 +1,185 @@
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* CSS cho form */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="number"], input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50; /* Màu xanh lá cây */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* CSS cho nút thêm sách */
+  .btn-add {
+    background-color: #4CAF50; /* Màu xanh dương */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Loại bỏ gạch chân của liên kết */
+    display: inline-block; /* Hiển thị nút dưới dạng inline-block */
+    margin-bottom: 20px; /* Thêm khoảng cách dưới nút */
+  }
+  
+  .btn-add:hover {
+    background-color: #4CAF50; /* Màu xanh dương đậm hơn khi hover */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Thêm hiệu ứng đổ bóng */
+  }
+  /* CSS cho form tìm kiếm */
+.search-form {
+  display: flex;
+  align-items: center; /* Căn giữa các phần tử theo chiều dọc */
+  margin-bottom: 20px; /* Thêm khoảng cách dưới form */
+}
+
+.search-form input[type="text"] {
+  flex: 1; /* Cho phép input chiếm hết khoảng trống còn lại */
+  margin-right: 10px; /* Thêm khoảng cách giữa input và button */
+}
+.search-form button { /* Thêm CSS cho button */
+  /* Các thuộc tính CSS cho button ở đây, ví dụ: */
+  background-color: #4CAF50; /* Màu xanh lá */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.menu-container {
+  position: fixed; 
+  top: 10px; 
+  right: 10px; 
+  width: 200px; 
+  z-index: 100; 
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  position: relative; 
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none; 
+  color: #333;
+  font-style: bold;
+  background-color: #f2f2f2; 
+}
+
+.menu a:hover {
+  background-color: #4CAF50; 
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  left: 100%; 
+  top: 0;
+  background-color: #4CAF50;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+/* Các style khác của bạn */
+
+.menu-container {
+  position: fixed; 
+  top: 10px; 
+  right: 10px; 
+  z-index: 100; 
+}
+
+.menu-toggle {
+  background-color: #4CAF50; /* Màu xanh lá cây */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none; /* Ẩn menu mặc định */
+}
+
+.menu.active {
+  display: block; /* Hiển thị menu khi active */
+}
+
+/* Các style khác của menu (ví dụ: màu sắc, font chữ, ...) */
